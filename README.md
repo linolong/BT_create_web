@@ -44,7 +44,7 @@ yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_
 wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh && sudo bash install.sh
 ```
 
-# wordpress
+## wordpress
 
 * PHP版本7.3+以上，推荐PHP 7.4
 
@@ -52,14 +52,14 @@ wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh && sudo b
 
 * nginx或者apache等web服务器
 
-## WordPress下载地址
+### WordPress下载地址
 
 #### WordPress的官网：
 
 * 英文 https://wordpress.org/
 * 中文 https://cn.wordpress.org/
 
-## WordPress的官方下载地址：
+#### WordPress的官方下载地址：
 
 * 英文 https://wordpress.org/latest.zip
 * 中文 https://cn.wordpress.org/latest-zh_CN.zip
@@ -68,13 +68,12 @@ wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh && sudo b
 BT界面>>>>文件>>>>远程下载>>>>URL地址：https://cn.wordpress.org/latest-zh_CN.zip >>>>解压>>>>剪切、粘贴
 
 # 内网建站
-### 在bt内域名直接输入指定的内网ip地址，建站后局域网便可访问，网站地址为此ip地址
+#### 在bt内域名直接输入指定的内网ip地址，建站后局域网便可访问，网站地址为此ip地址
 
-* ## 链接到公盘
+---
+# 链接到公盘
 
-* 安装samba
-
-* WINDOWS10如何安装samba3.0
+### WINDOWS10安装samba3.0
 
 * 首先是兼容SMB lv1协议。打开Control Panel，搜索进入Turn Windows Features on or off。勾选和SMB 1.0/CIFS相关的全部选项。勾选SMB Direct。
 
